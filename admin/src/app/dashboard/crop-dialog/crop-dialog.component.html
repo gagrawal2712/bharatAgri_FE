@@ -1,0 +1,22 @@
+<h1 mat-dialog-title> {{data.name}}</h1>
+<div mat-dialog-content fxLayout="column">
+  <div fxLayoutAlign="space-between">
+      <span>Name:</span>
+      <span>{{data.name}}</span>
+  </div>
+  <div fxLayoutAlign="space-between">
+    <span>Feture1:</span>
+    <span>{{data.feature1}}</span>
+  </div>
+  <div fxLayoutAlign="space-between">
+    <span>Feture2:</span>
+    <span>{{data.feature3}}</span>
+  </div>
+  <div fxLayoutAlign="space-between">
+    <span>Feture3:</span>
+    <span>{{data.feature3}}</span>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+</div>
